@@ -4,18 +4,6 @@ require 'nokogiri'
 
 require_relative 'student'
 
-# name:
-# location:
-# profile_url:
-
-# twitter-url:
-# linkedin_url:
-# github_url:
-# blog_url:
-# profile_quote: .css(".profile_quote").text
-# bio:
-
-
 
 class Scraper
 
