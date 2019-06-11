@@ -54,4 +54,3 @@ class Scraper
 
 >>>>>>> 80d3c3a84550ea43b71dc670b34717336a833188
 end
-
