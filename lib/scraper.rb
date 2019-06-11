@@ -4,7 +4,6 @@ require 'nokogiri'
 
 require_relative 'student'
 
-
 class Scraper
 
   def self.scrape_index_page(index_url)
@@ -55,3 +54,4 @@ class Scraper
 
 >>>>>>> 80d3c3a84550ea43b71dc670b34717336a833188
 end
+
