@@ -8,7 +8,6 @@ require_relative 'student'
 # location:
 # profile_url:
 
-
 # twitter-url:
 # linkedin_url:
 # github_url:
