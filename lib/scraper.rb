@@ -21,6 +21,7 @@ require_relative 'student'
 class Scraper
 
   def self.scrape_index_page(index_url)
+<<<<<<< HEAD
     student_cards = Nokogiri::HTML(open(index_url)).css(".roster-cards-container .student-card")
     student_cards.map do |s|
       student_hash = {}
@@ -51,4 +52,19 @@ class Scraper
     student
   end
 
+=======
+
+
+  end
+
+  def self.scrape_profile_page(profile_url)
+
+  end
+
+  def self.get_page
+    html = File.open("../fixtures/student-site/index.html")
+    student_site = Nokogiri::HTML(html)
+  end
+
+>>>>>>> 80d3c3a84550ea43b71dc670b34717336a833188
 end
